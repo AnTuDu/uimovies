@@ -22,7 +22,7 @@ async def addconnection(client, message):
             await message.reply_text(
                 "<b>Enter in correct format!</b>\n\n"
                 "<code>/connect groupid</code>\n\n"
-                "<i>Group id lene liye, mujhe us group mei add kr ke ye command dein 👉 <code>/id</code></i>",
+                "<i>To get group id , you can add me to that group and send this code 👉 <code>/id</code></i>",
                 quote=True
             )
             return
