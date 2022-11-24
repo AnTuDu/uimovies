@@ -12,7 +12,7 @@ logger.setLevel(logging.ERROR)
 async def addconnection(client, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
-        return await message.reply(f"Oye Anzaan Admin ji, kripaa kr ye command ko mujhe kopche m bhejo 👉 Use /connect {message.chat.id} in PM")
+        return await message.reply(f"You are anonymous admin, send this in pm. 👉 Use /connect {message.chat.id} in PM")
     chat_type = message.chat.type
 
     if chat_type == "private":
